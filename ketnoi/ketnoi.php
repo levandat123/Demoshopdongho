@@ -3,7 +3,12 @@
 
 	$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
 	$dotenv->load();
-
+	echo 'DB_HOST: ' . getenv('DB_HOST') . "\n";
+	echo 'DB_USER: ' . getenv('DB_USER') . "\n";
+	echo 'DB_PORT: ' . getenv('DB_PORT') . "\n";
+	echo 'DB_DATABASE: ' . getenv('DB_DATABASE') . "\n";
+	echo 'DB_PASSWORD: ' . getenv('DB_PASSWORD') . "\n";
+	
 	$db_host = $_ENV['DB_HOST'];
 	$db_port = $_ENV['DB_PORT'];
 	$db_database = $_ENV['DB_DATABASE'];
