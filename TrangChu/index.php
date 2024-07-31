@@ -1,10 +1,9 @@
 <?php
 session_start();
-require_once('../ketnoi/ketnoi.php');
+require_once __DIR__ . '/./../ketnoi/ketnoi.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link href="css/index.css" rel="stylesheet" />
     <meta charset="UTF-8">

@@ -1,6 +1,6 @@
 <?php
 if ($_SESSION['tk']) {
-    require_once('../ketnoi/ketnoi.php');
+    require_once __DIR__ . '/../../ketnoi/ketnoi.php';
 ?>
     <link rel="stylesheet" type="text/css" href="css/danhsachsp.css" />
     <!DOCTYPE html>
@@ -48,7 +48,7 @@ if ($_SESSION['tk']) {
 
                             <?php
                             $tongdoanhthu = 0;
-                            $stt = 0;
+                            $stt = 1;
                             while ($row = $result->fetch_assoc()) {
                             ?>
                                 <tr>

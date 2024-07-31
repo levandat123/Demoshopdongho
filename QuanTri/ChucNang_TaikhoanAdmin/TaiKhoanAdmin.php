@@ -1,7 +1,8 @@
 <link rel="stylesheet" type="text/css" href="css/danhsachsp.css" />
 
 <?php   
-    require_once("../ketnoi/ketnoi.php");
+    require_once __DIR__ . '/../../ketnoi/ketnoi.php';
+
     //delete du lieu
     if(isset($_POST['idtaikhoan'])){
         $idtaikhoan=$_POST['idtaikhoan'];
@@ -13,7 +14,7 @@ $loaddulieu='
 <tr id="prd-bar">
     <td width="10%">STT</td>
     <td width="70%">Tên Tài Khoản</td>
-    <td width="20%">Phân Quyền</td>
+    <td width="20%">Xóa</td>
   
 </tr>';
 

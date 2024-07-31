@@ -1,6 +1,7 @@
 <?php
 session_start();
-include_once('../ketnoi/ketnoi.php');
+require_once __DIR__ . '/./../ketnoi/ketnoi.php';
+
 if (isset($_SESSION['tk'])) {
 ?>
     <!DOCTYPE html>
