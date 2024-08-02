@@ -67,7 +67,7 @@ if(isset($_POST['submit'])&&($_POST['submit'])){
 					<li><label>tài khoản</label><input class="form-control" type="text" name="tk" value="<?php echo isset($_POST['tk'])? $_POST['tk']: "";  ?>" /></li> 
 					<li><label>mật khẩu</label><input class="form-control"  type="password" name="mk" /></li>
 					<li><label>ghi nhớ</label><input type="checkbox" name="check" /></li>
-					<li><input class="btn btn-success" type="submit" name="submit" value="Đăng nhập" /> <button class="btn btn-info"><a target="_blank" href="ChucNang_DangNhap/Dangki.php">Đăng Kí</a></button></li>
+					<li><input class="btn btn-success" type="submit" name="submit" value="Đăng nhập" /> <button class="btn btn-info"><a target="_blank" href="ChucNang_Dangnhap/Dangki.php">Đăng Kí</a></button></li>
 				</ul>
 			</div>
 		</form>
